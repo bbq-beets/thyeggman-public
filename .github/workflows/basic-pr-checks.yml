@@ -36,7 +36,7 @@ jobs:
         run: |
           echo "Running basic lint checks (no secrets needed)..."
           # This could run actual linting
-          echo "Lint passed"
+          echo "Lint passed 456"
 
       - name: Show event info
         run: |
