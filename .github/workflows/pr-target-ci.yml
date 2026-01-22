@@ -25,6 +25,7 @@ jobs:
         id: branch
         run: |
           echo "target=${{ github.base_ref }}" >> $GITHUB_OUTPUT
+          echo "TEST"
           # This is the workaround - we have to determine which "version" of the 
           # workflow logic to use based on the target branch
           case "${{ github.base_ref }}" in
