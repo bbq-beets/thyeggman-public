@@ -73,7 +73,7 @@ jobs:
           echo "from the DEFAULT branch (main), not the BASE branch of the PR."
           echo ""
           echo "This means if this PR targets release/v1.2.x, the workflow from main"
-          echo "is running, not the workflow that exists on release/v1.2.x"
+          echo "is running, not the workflow that exists on release/v1.2.x AAA"
 
       # Simulated container build that requires secrets
       - name: Build container image
